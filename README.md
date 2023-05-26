@@ -7,6 +7,22 @@ source info.
 
 Source: [http://www.nationwide.co.uk/hpi/historical.htm](http://www.nationwide.co.uk/hpi/historical.htm)
 
+
+## Table
+
+<Table 
+    url="https://raw.githubusercontent.com/Mikanebu/house-prices-uk/main/data/data.csv" 
+/>
+
+## Chart
+
+<LineChart
+    title="UK house prices since 1953 as monthly time-series - Price (All)"
+    xAxis="Date"
+    yAxis="Price (All)"
+    data="https://raw.githubusercontent.com/Mikanebu/house-prices-uk/main/data/data.csv"
+/>
+
 ### Notes
 
 From the source XLS file (notes tab):
