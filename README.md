@@ -17,11 +17,33 @@ Source: [http://www.nationwide.co.uk/hpi/historical.htm](http://www.nationwide.c
 ## Chart
 
 <LineChart
-    title="UK house prices since 1953 as monthly time-series - Price (All)"
+    title="UK house prices since 1953 as monthly time-series - All houses"
     xAxis="Date"
     yAxis="Price (All)"
     data="https://raw.githubusercontent.com/Mikanebu/house-prices-uk/main/data/data.csv"
 />
+
+<LineChart
+    title="UK house prices since 1953 as monthly time-series - New houses"
+    xAxis="Date"
+    yAxis="Price (New)"
+    data="https://raw.githubusercontent.com/Mikanebu/house-prices-uk/main/data/data.csv"
+/>
+
+<LineChart
+    title="UK house prices since 1953 as monthly time-series - Modern houses"
+    xAxis="Date"
+    yAxis="Price (Modern)"
+    data="https://raw.githubusercontent.com/Mikanebu/house-prices-uk/main/data/data.csv"
+/>
+
+<LineChart
+    title="UK house prices since 1953 as monthly time-series - Older houses"
+    xAxis="Date"
+    yAxis="Price (Older)"
+    data="https://raw.githubusercontent.com/Mikanebu/house-prices-uk/main/data/data.csv"
+/>
+
 
 ### Notes
 
